@@ -1,0 +1,42 @@
+body  {
+    height: 700vh;
+    background: linear-gradient(cyan,blue, darkblue, black, black)
+   }
+   
+   header {
+       text-align: center;
+       padding-top: 160px;
+       color: white;
+       font-size: 45px;
+   }
+   
+   .navbar {
+   
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       padding: 50px;
+       margin-top: -420px;
+   }
+   
+   .nav-links {
+       display: flex;
+       list-style-type: none;
+       margin-left: 0;
+       padding: 0;
+   }
+   
+   .nav-links li {
+       margin: 0 100px;
+   }
+   
+   .nav-links a {
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       font-size: 20px;
+       transition: color 0.3s;
+   }
+   
+   .nav-links a:hover {
+       color: #484081;
+   }
