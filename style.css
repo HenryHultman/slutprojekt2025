@@ -1,6 +1,6 @@
 body  {
-    height: 700vh;
-    background: linear-gradient(cyan,blue, darkblue, black, black)
+    height: 2000vh;
+    background: linear-gradient(cyan, darkblue, black, black, black, black, black)
    }
    
    header {
